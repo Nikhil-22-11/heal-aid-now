@@ -2,7 +2,6 @@ import { useState } from "react";
 import {
   ArrowRight,
   BadgeCheck,
-  CalendarDays,
   ChevronLeft,
   FileText,
   Mic,
@@ -507,5 +506,3 @@ function ConsentRow({
     </div>
   );
 }
-
-export const IconMap = { CalendarDays };
