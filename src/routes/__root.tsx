@@ -8,6 +8,7 @@ import {
   Scripts,
 } from "@tanstack/react-router";
 import { useEffect, type ReactNode } from "react";
+import { Toaster } from "sonner";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
@@ -77,10 +78,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "MediKiosk" },
+      { title: "ClinSync" },
       {
         name: "description",
-        content: "Smart hospital kiosk for OPD tokens, AI intake and ABHA records.",
+        content: "ClinSync — Smart hospital kiosk for OPD tokens, AI intake and ABHA records.",
       },
       { name: "theme-color", content: "#0052CC" },
       { property: "og:type", content: "website" },
@@ -128,6 +129,8 @@ function RootComponent() {
     <QueryClientProvider client={queryClient}>
       {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
       <Outlet />
+      <Toaster position="top-right" richColors />
     </QueryClientProvider>
   );
 }
+
