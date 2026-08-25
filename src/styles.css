@@ -73,8 +73,8 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
-  --shadow-card: 0 1px 2px rgb(15 23 42 / 0.06), 0 8px 24px -12px rgb(15 23 42 / 0.18);
-  --shadow-token: 0 18px 40px -18px rgb(0 82 204 / 0.55);
+  --shadow-card: 0 1px 3px rgb(15 23 42 / 0.05), 0 8px 20px -8px rgb(15 23 42 / 0.10);
+  --shadow-token: 0 14px 32px -12px rgb(13 148 136 / 0.35);
 }
 
 :root {
@@ -85,80 +85,79 @@
   --card-foreground: #0f172a;
   --popover: #ffffff;
   --popover-foreground: #0f172a;
-  --primary: #0052cc;
+  --primary: #0d9488;
   --primary-foreground: #ffffff;
-  --secondary: #eef2f7;
+  --secondary: #f0fdfa;
   --secondary-foreground: #0f172a;
   --muted: #f1f5f9;
   --muted-foreground: #64748b;
-  --accent: #38bdf8;
-  --accent-foreground: #06283d;
-  --destructive: #de350b;
+  --accent: #14b8a6;
+  --accent-foreground: #042f2e;
+  --destructive: #dc2626;
   --destructive-foreground: #ffffff;
   --border: #e2e8f0;
   --input: #e2e8f0;
-  --ring: #0052cc;
-  --shell: #0f172a;
-  --shell-foreground: #e2e8f0;
+  --ring: #0d9488;
+  --shell: #0b1926;
+  --shell-foreground: #f1f5f9;
   --shell-muted: #94a3b8;
-  --success: #00875a;
+  --success: #16a34a;
   --success-foreground: #ffffff;
   --success-soft: #dcfce7;
-  --emergency: #de350b;
+  --emergency: #dc2626;
   --emergency-foreground: #ffffff;
   --emergency-soft: #fee2e2;
-  --warning: #b45309;
+  --warning: #d97706;
   --warning-soft: #fef3c7;
-  --abha: #eff6ff;
-  --chart-1: #0052cc;
-  --chart-2: #38bdf8;
-  --chart-3: #00875a;
-  --chart-4: #de350b;
+  --abha: #f0fdfa;
+  --chart-1: #0d9488;
+  --chart-2: #0284c7;
+  --chart-3: #16a34a;
+  --chart-4: #dc2626;
   --chart-5: #64748b;
-  --sidebar: #0f172a;
-  --sidebar-foreground: #e2e8f0;
-  --sidebar-primary: #0052cc;
+  --sidebar: #0b1926;
+  --sidebar-foreground: #f1f5f9;
+  --sidebar-primary: #0d9488;
   --sidebar-primary-foreground: #ffffff;
-  --sidebar-accent: #1e293b;
-  --sidebar-accent-foreground: #f8fafc;
-  --sidebar-border: #1e293b;
-  --sidebar-ring: #38bdf8;
+  --sidebar-accent: #152738;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: #1a3044;
+  --sidebar-ring: #14b8a6;
 }
 
-
 .dark {
-  --background: oklch(0.129 0.042 264.695);
-  --foreground: oklch(0.984 0.003 247.858);
-  --card: oklch(0.208 0.042 265.755);
-  --card-foreground: oklch(0.984 0.003 247.858);
-  --popover: oklch(0.208 0.042 265.755);
-  --popover-foreground: oklch(0.984 0.003 247.858);
-  --primary: oklch(0.929 0.013 255.508);
-  --primary-foreground: oklch(0.208 0.042 265.755);
-  --secondary: oklch(0.279 0.041 260.031);
-  --secondary-foreground: oklch(0.984 0.003 247.858);
-  --muted: oklch(0.279 0.041 260.031);
-  --muted-foreground: oklch(0.704 0.04 256.788);
-  --accent: oklch(0.279 0.041 260.031);
-  --accent-foreground: oklch(0.984 0.003 247.858);
-  --destructive: oklch(0.704 0.191 22.216);
-  --destructive-foreground: oklch(0.984 0.003 247.858);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.551 0.027 264.364);
-  --chart-1: oklch(0.488 0.243 264.376);
-  --chart-2: oklch(0.696 0.17 162.48);
-  --chart-3: oklch(0.769 0.188 70.08);
-  --chart-4: oklch(0.627 0.265 303.9);
-  --chart-5: oklch(0.645 0.246 16.439);
-  --sidebar: oklch(0.208 0.042 265.755);
-  --sidebar-foreground: oklch(0.984 0.003 247.858);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.984 0.003 247.858);
-  --sidebar-accent: oklch(0.279 0.041 260.031);
-  --sidebar-accent-foreground: oklch(0.984 0.003 247.858);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.551 0.027 264.364);
+  --background: #090e15;
+  --foreground: #f8fafc;
+  --card: #0f172a;
+  --card-foreground: #f8fafc;
+  --popover: #0f172a;
+  --popover-foreground: #f8fafc;
+  --primary: #14b8a6;
+  --primary-foreground: #042f2e;
+  --secondary: #132230;
+  --secondary-foreground: #f8fafc;
+  --muted: #1e293b;
+  --muted-foreground: #94a3b8;
+  --accent: #0d9488;
+  --accent-foreground: #f8fafc;
+  --destructive: #ef4444;
+  --destructive-foreground: #ffffff;
+  --border: #1e293b;
+  --input: #1e293b;
+  --ring: #14b8a6;
+  --chart-1: #14b8a6;
+  --chart-2: #38bdf8;
+  --chart-3: #22c55e;
+  --chart-4: #f87171;
+  --chart-5: #94a3b8;
+  --sidebar: #070c12;
+  --sidebar-foreground: #f8fafc;
+  --sidebar-primary: #14b8a6;
+  --sidebar-primary-foreground: #042f2e;
+  --sidebar-accent: #132230;
+  --sidebar-accent-foreground: #f8fafc;
+  --sidebar-border: #1e293b;
+  --sidebar-ring: #14b8a6;
 }
 
 @layer base {
@@ -218,3 +217,47 @@
 @utility mk-screen-in {
   animation: mk-fade-up 0.28s ease-out both;
 }
+
+/* ==========================================================================
+   Print Styles for Official Pre-Consultation Clinical Report
+   ========================================================================== */
+@media print {
+  aside,
+  header,
+  nav,
+  .mk-no-print,
+  [data-sonner-toaster],
+  button {
+    display: none !important;
+  }
+
+  body,
+  html,
+  #root,
+  main {
+    background: #ffffff !important;
+    color: #000000 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+  }
+
+  .lg\:pl-64 {
+    padding-left: 0 !important;
+  }
+
+  .print-clean-page {
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  @page {
+    size: A4 portrait;
+    margin: 12mm 15mm;
+  }
+}
+
