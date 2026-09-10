@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="clinsync-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0052CC"/>
+      <stop offset="50%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#00C2FF"/>
+    </linearGradient>
+    <filter id="pulse-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="1.5" flood-color="#001845" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  
+  <!-- Rounded Squircle Background -->
+  <rect width="64" height="64" rx="15" fill="url(#clinsync-grad)"/>
+  <rect x="1" y="1" width="62" height="62" rx="14" stroke="#ffffff" stroke-opacity="0.2" stroke-width="1.5"/>
+
+  <!-- Subtle Medical Cross -->
+  <rect x="26.5" y="14" width="11" height="36" rx="3.5" fill="#ffffff" fill-opacity="0.12"/>
+  <rect x="14" y="26.5" width="36" height="11" rx="3.5" fill="#ffffff" fill-opacity="0.12"/>
+
+  <!-- ECG Pulse Wave -->
+  <path d="M11 33 H21 L26 19 L33 45 L38 26 L43 33 H53" 
+        stroke="#ffffff" 
+        stroke-width="4.2" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"
+        filter="url(#pulse-glow)"/>
+
+  <!-- Status Emerald Pulse Dot -->
+  <circle cx="51" cy="13" r="5.5" fill="#0A1128"/>
+  <circle cx="51" cy="13" r="4" fill="#10B981"/>
+</svg>
